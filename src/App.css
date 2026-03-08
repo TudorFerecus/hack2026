@@ -1,63 +1,173 @@
-.Container {
+
+
+.App {
+  text-align: center;
   display: flex;
-  flex-direction: column;              
-  padding-left: 15px;     
-  padding-top: 70px;
+  flex-direction: column;
 }
 
-.Titlu {
-  position: relative;
-  width: 163px;
-  height: 24px;
-
-  left: 30px;
-  text-align: left;
-  font-family: Montserrat;
-  font-weight: 800;
-  font-style: Bold;
-  font-size: 32px;
-  line-height: 100%;
-  color: black;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.Line {
-  position: absolute;
-  display: flex;
-  width: 39px;
-  height: 0px;
-  left: 10px;
-  top: 83px;
-  z-index: 1px;
+.Parteneri2{
+  /* neri */
 
-  border: 3px solid #726DA8;
-  transform: rotate(90deg);
+position: absolute;
+width: 234px;
+height: 48px;
+left: 115px;
+top: 88px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+
+color: #EF7B45;
+
+
 }
 
-.Circle1{
-  /* Ellipse 2 */
+.Parteneri1{
+  /* Parte */
+
+position: absolute;
+width: 117px;
+height: 48px;
+left: 60px;
+top: 76px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+
+color: #F7F7FF;
+
+
+}
+
+.ellipse_verde_mare{
+  /* Ellipse 4 */
 clip-path: ellipse();
 position: absolute;
 width: 596px;
 height: 596px;
-left: -225px;
-top: 40px;
-z-index: -2px;
-
-background: #F7F7FF;
-}
-
-.Circle2{
-/* Ellipse 1 */
-clip-path: ellipse();
-position: absolute;
-width: 596px;
-height: 596px;
-left: -238px;
-top: 20px;
-z-index: -1px;
-
+left: -56px;
+top: 173px;
+z-index: 10;
 background: #1A936F;
 
 }
 
+.colab{
+  z-index: 30;
+}
 
+.ellipse_alb_mare{
+  
+  /* Ellipse 1 */
+clip-path: ellipse();
+position: absolute;
+width: 596px;
+height: 596px;
+left: -61px;
+top: 180px;
+z-index: 20;
+background: #F7F7FF;
+
+}
+
+.ellipse1_alb{
+  
+position: absolute;
+width: 435px;
+height: 435px;
+left: 230px;
+top: -300px;
+clip-path: ellipse();
+background: #1A936F;
+
+
+}
+
+.ellipse21{
+  /* Ellipse 6 */
+clip-path: ellipse();
+position: absolute;
+width: 112px;
+height: 112px;
+left: -36px;
+top: -19px;
+z-index: 10;
+
+background: #F7F7FF;
+
+}
+
+.banner-wrapper {
+  position: relative;
+  z-index: 30;
+  margin-top: 320px;
+}
+
+.ellipse2 {
+  clip-path: ellipse();
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  left: -36px;
+  top: -22px;
+  z-index: 20;
+
+  background: #EF7B45;
+}
+
+.ellipse1 {
+
+  clip-path: ellipse();
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  left: 30px;
+  top: 13px;
+  align-items: center;
+
+  background: #EF7B45;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #726DA8;
+  background: linear-gradient(180deg, #726DA8 0%,  #726DA8 30%, #F7F7FF 60%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

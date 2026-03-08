@@ -1,0 +1,73 @@
+.Container {
+  display: flex;
+  flex-direction: row;                  
+  padding-top: 100px;
+}
+
+.LogoVf img {
+  width: 50px;         
+  height: auto;
+}
+
+.LogoWrapper {
+  display: flex;
+  flex-direction: row; 
+  gap: 10px;           
+  margin-top: 10px;    
+}
+
+.Titlu {
+  position: relative;
+  width: 163px;
+  height: 24px;
+
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  color: black;
+}
+
+.Line {
+  position: relative;
+  display: flex;
+  width: 39px;
+  height: 0px;
+  left: 10px;
+  top: 15px;
+  z-index: 1px;
+
+  border: 3px solid #726DA8;
+  transform: rotate(90deg);
+}
+
+.plm {
+position: relative;
+}
+.Circle1{
+  /* Ellipse 2 */
+clip-path: ellipse();
+position: absolute;
+width: 596px;
+height: 596px;
+left: -225px;
+top: 40px;
+z-index: -2px;
+
+background: #F7F7FF;
+}
+
+.Circle2{
+/* Ellipse 1 */
+clip-path: ellipse();
+position: absolute;
+width: 596px;
+height: 596px;
+left: -238px;
+top: 20px;
+z-index: -1;
+background: #1A936F;
+
+}
