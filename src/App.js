@@ -2,6 +2,7 @@
 import './App.css';
 import Contact from './contact';
 import ellipse from './contact/images/ellipse.svg';
+import componentaEchipa from './contact/components/componente_echipa/componenta_echipa';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
       </div>
 
       <div className="container_echipa">
-            
+            <componentaEchipa />
       </div>
     </div>
   );
