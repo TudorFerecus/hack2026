@@ -1,95 +1,105 @@
 .App {
   text-align: center;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-.Parteneri2{
+
+.Parteneri2 {
   /* neri */
-position: absolute;
-width: 234px;
-height: 48px;
-left: 115px;
-top: 88px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 49px;
-color: #EF7B45;
+  position: absolute;
+  width: 234px;
+  height: 48px;
+  left: 115px;
+  top: 88px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color: #EF7B45;
 }
-.Parteneri1{
+
+.Parteneri1 {
   /* Parte */
-position: absolute;
-width: 117px;
-height: 48px;
-left: 60px;
-top: 76px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 49px;
-color: 
-#F7F7FF;
+  position: absolute;
+  width: 117px;
+  height: 48px;
+  left: 60px;
+  top: 76px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  color:
+    #F7F7FF;
 }
-.ellipse_verde_mare{
+
+.ellipse_verde_mare {
   /* Ellipse 4 */
-clip-path: ellipse();
-position: absolute;
-width: 596px;
-height: 596px;
-left: -56px;
-top: 173px;
-z-index: 10;
-background: 
-#1A936F;
+  clip-path: ellipse();
+  position: absolute;
+  width: 596px;
+  height: 596px;
+  left: -56px;
+  top: 173px;
+  z-index: 10;
+  background:
+    #1A936F;
 }
-.colab{
+
+.colab {
   z-index: 30;
 }
-.ellipse_alb_mare{
-  
+
+.ellipse_alb_mare {
+
   /* Ellipse 1 */
-clip-path: ellipse();
-position: absolute;
-width: 596px;
-height: 596px;
-left: -61px;
-top: 180px;
-z-index: 20;
-background: 
-#F7F7FF;
+  clip-path: ellipse();
+  position: absolute;
+  width: 596px;
+  height: 596px;
+  left: -61px;
+  top: 180px;
+  z-index: 20;
+  background:
+    #F7F7FF;
 }
-.ellipse1_alb{
-  
-position: absolute;
-width: 435px;
-height: 435px;
-left: 230px;
-top: -300px;
-clip-path: ellipse();
-background: 
-#1A936F;
+
+.ellipse1_alb {
+
+  position: absolute;
+  width: 435px;
+  height: 435px;
+  left: 230px;
+  top: -300px;
+  clip-path: ellipse();
+  background:
+    #1A936F;
 }
-.ellipse21{
+
+.ellipse21 {
   /* Ellipse 6 */
-clip-path: ellipse();
-position: absolute;
-width: 112px;
-height: 112px;
-left: -36px;
-top: -19px;
-z-index: 10;
-background: 
-#F7F7FF;
+  clip-path: ellipse();
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  left: -36px;
+  top: -19px;
+  z-index: 10;
+  background:
+    #F7F7FF;
 }
+
 .banner-wrapper {
   position: relative;
   z-index: 30;
   margin-top: 320px;
 }
+
 .ellipse2 {
   clip-path: ellipse();
   position: absolute;
@@ -98,9 +108,10 @@ background:
   left: -36px;
   top: -22px;
   z-index: 20;
-  background: 
-#EF7B45;
+  background:
+    #EF7B45;
 }
+
 .ellipse1 {
   clip-path: ellipse();
   position: absolute;
@@ -109,24 +120,26 @@ background:
   left: 30px;
   top: 13px;
   align-items: center;
-  background: 
-#EF7B45;
+  background:
+    #EF7B45;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 .App-header {
-  background-color: 
-#726DA8;
-  background: linear-gradient(180deg, 
-#726DA8 0%,  
-#726DA8 40%, 
-#fdfdfd 60%);
+  background-color:
+    #726DA8;
+  background: linear-gradient(180deg,
+      #726DA8 0%,
+      #726DA8 40%,
+      #fdfdfd 60%);
   min-height: 100vh;
-  height: auto;     
-  padding-bottom: 60px; 
+  height: auto;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,14 +147,17 @@ background:
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-link {
-  color: 
-#61dafb;
+  color:
+    #61dafb;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
