@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    
+    #banner {
+        position: absolute;
+        width: 124px;
+        height: 77px;
+        left: calc(50% - 124px/2 - 98px);
+        top: 0px;
+    }
+
+    #navlogo {
+        position: absolute;
+        width: 32px;
+        height: 24px;
+        left: 268px;
+        top: 17px;
+        color: #726DA8;
+    }
+
+    #semn {
+        position: absolute;
+        width: 177px;
+        height: 296px;
+        left: 73px;
+        top: 44px;
+    }
+
+    .panc1 {
+    position: absolute;
+    left: 25%;          /*DONT TOUCH*/
+    right: 6.96%;
+    top: 30%;
+    bottom: 58.71%;
+    color: #F47F4D;
+    }
+
+    .panc2 {
+    position: absolute;
+    left: 25%;
+    right: 2.82%;
+    top: 39.22%;
+    bottom: 37.16%;
+    color: #1E9876;
+    }
+
+    .panc3 {
+    position: absolute;
+    left: 25%;
+    right: 6.57%;
+    top: 50.91%;
+    bottom: 17.77%;
+    color: #6E70AA;
+    }
+
+    .batpoza {
+    position: absolute;
+    left: 45.85%;
+    right: 46.36%;
+    top: 28.2%;
+    bottom: -7.44%;
+    color: #00000A;
+    z-index:-1;
+    }
+
+    .limita {
+        max-width:500px;
+    }
+
+    .elipsa {
+        position: absolute;
+        width: 619px;
+        height: 619px;
+        left: calc(50% - 619px/2 + 0.5px);
+        top: 321px;
+        color: #726DA8;
+
+    }
+
+
+
+}
+    
