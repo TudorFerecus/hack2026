@@ -9,3 +9,9 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+window.onload = function () {
+  console.log("hello");
+
+  
+}
