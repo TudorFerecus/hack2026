@@ -26,7 +26,7 @@ export default function VodafoneBanner({ title = "Anuali", titleAlignment = "rig
           }}>
             {title}
           </span>
-          <span style={{ color: "#E60000", fontSize: "38px", fontWeight: "300", marginLeft: "3px" }}>|</span>
+          <span style={{ color: "#726DA8", fontSize: "54px", fontWeight: "600", marginLeft: "3px" }}>|</span>
         </div>
 
         {/* Logos row */}

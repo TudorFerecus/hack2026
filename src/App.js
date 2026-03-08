@@ -27,7 +27,7 @@ function App() {
           <VodafoneBanner
             title="Anuali"
             titleAlignment="right"
-            logoCount={2}
+            logoCount={3}
           />
         </div>
       </header>
