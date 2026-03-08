@@ -6,8 +6,53 @@
     background-color: #726DA8;
     width: 100%;
     min-height: 100vh;
+    font-family: Roboto;
 }
 
-/* .parent-container {
+.parent-container {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
 
-} */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-text {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+
+.arrow1 {
+    width: 100%;
+    height: auto;
+}
+
+.meeting-img-container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-text-container {
+    padding: 25px;
+    height: auto;
+    color: white;
+    text-align: left;
+}
+
+.buttons-container {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.small-icon {
+    width: 30px;
+}
+
