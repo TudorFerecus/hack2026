@@ -7,7 +7,12 @@ import panc3 from "./home/panc3.svg";
 import bat from "./home/bat.svg";
 import elipsa from "./home/Ellipse 2.svg";
 import navlogo from "./home/navsvg.svg";
+import f1 from "./home/f1.svg"
+import f2 from "./home/f2.svg"
+import f3 from "./home/f3.svg"
 import { useState, useEffect } from "react";
+import cerc from "./home/batCerc.svg"
+import batCerc from "./home/cerc.svg"
 
 function Home() {
   const [timeLeft, setTimeLeft] = useState({
@@ -62,17 +67,40 @@ function Home() {
         <span>{timeLeft.hours}</span>h |
         <span>{timeLeft.minutes}</span>m
         </div>
-        <button id="aplica" name="aplica" type=""><a href="#">APLICA</a></button>
       </section>
-      <h1 id="program-banner"></h1>
-      <section>
+      <h1 id="program-banner">Program</h1>
+      <div id="fundal">.</div>
+      <button class="btnaplica" name="aplica" type="submit"><a href="#">APLICA</a></button>
+      <div class='cercuri'>
+        <img src={f1} class="f1"/>
+        <img src={f2} class="f2"/>
+        <img src={f3} class="f3"/>
+        <div class="orar">
+          <img src={cerc} class="cerc"/>
+          <img src={batCerc} class="batCerc"/>
+        </div>
+      </div>
+      <div class='cercuri' id='invers'>
+        <img src={f1} class="f1"/>
+        <img src={f2} class="f2"/>
+        <img src={f3} class="f3"/>
+        <div class="orar" id='celalalt'>
+          <img src={cerc} class="cerc"/>
+          <img src={batCerc} class="batCerc"/>
+        </div>
+      </div>
+      
+      
+      <section id="ziua1">
         <h2>Marti, 25 martie</h2>
-        <p>10:00<br/>Deschidere</p>
-        <p>10:00<br/>Conferinta</p>
-        <p>10:00<br/>TBA</p>
-        <p>10:00<br/>TBA</p>
+        <div id='date1'>
+          <p>10:00<br/>Deschidere</p>
+          <p>10:00<br/>Conferinta</p>
+          <p>10:00<br/>TBA</p>
+          <p>10:00<br/>TBA</p>
+        </div>
       </section>
-      <section>
+      <section id="ziua2">
         <h2>Miercuri, 26 martie</h2>
         <p>10:00<br/>Deschidere</p>
         <p>10:00<br/>Conferinta</p>
