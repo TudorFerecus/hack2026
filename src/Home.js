@@ -8,7 +8,6 @@ import bat from "./home/bat.svg";
 import elipsa from "./home/Ellipse 2.svg";
 import navlogo from "./home/navsvg.svg";
 
-
 function Home() {
   return (
     <div className="App">
@@ -27,11 +26,13 @@ function Home() {
         </div>
         <img id="maxlim" src={elipsa} class="elipsa" />
         <p class="text1">25-26 Martie</p>
-        <p class="text2">Automatica si Calculatoare UNSTPB</p>
+        <p class="text2">Automatica si Calculatoare<br/>UNSTPB</p>
         <p class="text3">fair.eestec.ro</p>
 
         <p>Timp ramas pana la eveniment:</p>
-        <p>TIMP</p>
+        <span id="days">00</span>d |
+        <span id="hours">00</span>h |
+        <span id="minutes">00</span>m
         <button id="aplica" name="aplica" type=""><a href="#">APLICA</a></button>
       </section>
       <h1 id="program-banner"></h1>
