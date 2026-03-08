@@ -7,6 +7,136 @@
   pointer-events: none;
 }
 
+.Parteneri2{
+  /* neri */
+
+position: absolute;
+width: 234px;
+height: 48px;
+left: 115px;
+top: 88px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+
+color: #EF7B45;
+
+
+}
+
+.Parteneri1{
+  /* Parte */
+
+position: absolute;
+width: 117px;
+height: 48px;
+left: 60px;
+top: 76px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 49px;
+
+color: #F7F7FF;
+
+
+}
+
+.ellipse_verde_mare{
+  /* Ellipse 4 */
+clip-path: ellipse();
+position: absolute;
+width: 596px;
+height: 596px;
+left: -56px;
+top: 173px;
+z-index: 10;
+background: #1A936F;
+
+}
+
+.colab{
+  z-index: 30;
+}
+
+.ellipse_alb_mare{
+  
+  /* Ellipse 1 */
+clip-path: ellipse();
+position: absolute;
+width: 596px;
+height: 596px;
+left: -61px;
+top: 180px;
+z-index: 20;
+background: #F7F7FF;
+
+}
+
+.ellipse1_alb{
+  
+position: absolute;
+width: 435px;
+height: 435px;
+left: 230px;
+top: -300px;
+clip-path: ellipse();
+background: #1A936F;
+
+
+}
+
+.ellipse21{
+  /* Ellipse 6 */
+clip-path: ellipse();
+position: absolute;
+width: 112px;
+height: 112px;
+left: -36px;
+top: -19px;
+z-index: 10;
+
+background: #F7F7FF;
+
+}
+
+.banner-wrapper {
+  position: relative;
+  z-index: 30;
+  margin-top: 320px;
+}
+
+.ellipse2 {
+  clip-path: ellipse();
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  left: -36px;
+  top: -22px;
+  z-index: 20;
+
+  background: #EF7B45;
+}
+
+.ellipse1 {
+
+  clip-path: ellipse();
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  left: 30px;
+  top: 13px;
+  align-items: center;
+
+  background: #EF7B45;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,10 +144,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #726DA8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -32,6 +164,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -1,22 +1,35 @@
-import logo from './logo.svg';
+import VodafoneBanner from './VodafoneBanner';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='ellipse1_alb'></div>
+        <div className="ellipse1">
+          <span className='Parteneri1'>Parte</span>
+        </div>
+        <span className='Parteneri2'>neri</span>
+        <div className="ellipse2">
+        </div>
+        <div className="ellipse21">
+        </div>
+        <div className='ellipse_verde_mare'></div>
+        <div className='ellipse_alb_mare'></div>
+        <div style={{
+          position: 'absolute',
+          zIndex: 50,
+          top: '250px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '75%'
+        }}>
+          <VodafoneBanner
+            title="Anuali"
+            titleAlignment="right"
+            logoCount={2}
+          />
+        </div>
       </header>
     </div>
   );
