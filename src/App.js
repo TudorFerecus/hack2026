@@ -30,6 +30,34 @@ function App() {
             logoCount={3}
           />
         </div>
+        <div style={{
+          position: 'absolute',
+          zIndex: 50,
+          top: '450px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '75%'
+        }}>
+          <VodafoneBanner
+            title="Premium"
+            titleAlignment="right"
+            logoCount={1}
+          />
+        </div>
+        <div style={{
+          position: 'absolute',
+          zIndex: 50,
+          top: '600px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          width: '75%'
+        }}>
+          <VodafoneBanner
+            title="Professional"
+            titleAlignment="right"
+            logoCount={3}
+          />
+        </div>
       </header>
     </div>
   );
