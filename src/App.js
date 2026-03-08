@@ -14,10 +14,6 @@ function App() {
         <Contact />
       </div>
 
-      <div className="container_persons">
-
-      </div>
-
       <div className="container_form">
         <form>
           <div className="container_field first_field">
@@ -37,6 +33,14 @@ function App() {
 
           <button type="submit" class="submit_button">TRIMITE</button>
           </form>
+      </div>
+
+      <div class="title">
+          <h1>Echipa</h1>
+      </div>
+
+      <div className="container_echipa">
+            
       </div>
     </div>
   );
