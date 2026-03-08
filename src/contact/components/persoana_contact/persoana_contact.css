@@ -1,54 +1,82 @@
-.chenarr{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-.chenar {
+.contact-card {
     /* Rectangle 116 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 274px;
-height: 79px;
-left: 23px;
-top: 136px;
-
-background: #F7F7FF;
-border: 2px solid #EF7B45;
-border-radius: 20px;
-
-}
-
-.titlu {
+    box-sizing: border-box;
+    position: relative; /* Schimbat din absolute pentru a fi utilizabil oriunde */
+    width: 274px;
+    height: 79px;
+    background: #F7F7FF;
+    border: 2px solid #EF7B45;
+    border-radius: 20px;
+    
+    /* Pentru a centra cardul pe pagină în demo, poți folosi margini sau un wrapper */
+    margin: 20px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .profile-image {
+    position: absolute;
+    width: 53px;
+    height: 65px;
+    left: 10px;
+    top: 7px;
+    background: url('pozehackathon/tz1AUTt - Imgur 8.svg') no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .name {
     /* Sergiu Adrian Preda */
-
-position: absolute;
-width: 148px;
-height: 17px;
-left: 94px;
-top: 143px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #071013;
- 
-}
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.info1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.info   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    position: absolute;
+    width: 148px;
+    height: 17px;
+    left: 71px; /* 94px - 23px */
+    top: 7px;   /* 143px - 136px */
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left; /* Am schimbat în left pentru a arăta ca în poză, deși în date scria center */
+    color: #071013;
+    margin: 0;
+  }
+  
+  .role {
+    /* presedinte EESTEC Bucuresti */
+    position: absolute;
+    width: 217px;
+    height: 12px;
+    left: 71px; /* Aliniat cu numele */
+    top: 24px;  /* 160px - 136px */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .phone {
+    /* +0707070707 */
+    position: absolute;
+    width: 68px;
+    height: 12px;
+    left: 71px; /* 94px - 23px */
+    top: 37px;  /* 173px - 136px */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .email {
+    /* sergiu.preda@eestec.ro */
+    position: absolute;
+    width: 118px;
+    height: 12px;
+    left: 71px; /* 94px - 23px */
+    top: 49px;  /* 185px - 136px */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    margin: 0;
+  }
