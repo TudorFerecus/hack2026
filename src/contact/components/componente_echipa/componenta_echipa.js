@@ -1,7 +1,7 @@
 import './componente_echipa.css';
 import Arrow from '../../images/Arrow 6.svg';
 
-function componentaEchipa() {
+function ComponentaEchipa() {
     return (
         <div className="Arrow">
             <img src={Arrow}></img>
@@ -10,4 +10,4 @@ function componentaEchipa() {
     );
 }
 
-export default componentaEchipa;
+export default ComponentaEchipa;

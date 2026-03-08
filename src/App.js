@@ -2,13 +2,16 @@
 import './App.css';
 import Contact from './contact';
 import ellipse from './contact/images/ellipse.svg';
-import componentaEchipa from './contact/components/componente_echipa/componenta_echipa';
+import ComponentaEchipa from './contact/components/componente_echipa/componenta_echipa';
+import blob from './contact/images/Vector.svg';
 
 function App() {
   return (
     <div className="App">
       <div className="bg">
         <img src={ellipse} className="ellipse"></img>
+        <img src={blob} className="blob1"></img>
+        <img src={blob} className="blob2"></img>
       </div>
 
       <div className="header">
@@ -32,17 +35,20 @@ function App() {
             <textarea placeholder="nu mai vreau sa fiu viu" rows="4"></textarea>
           </div>
 
-          <button type="submit" class="submit_button">TRIMITE</button>
+          <button type="submit" className="submit_button">TRIMITE</button>
           </form>
       </div>
 
-      <div class="title">
+      <div className="title">
           <h1>Echipa</h1>
       </div>
 
       <div className="container_echipa">
-            <componentaEchipa />
+            <ComponentaEchipa />
+            <ComponentaEchipa />
+            <ComponentaEchipa />
       </div>
+
     </div>
   );
 }
