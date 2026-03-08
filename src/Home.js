@@ -60,25 +60,27 @@ function Home() {
         <div class="ddhhmm">
         <span>{timeLeft.days}</span>d |
         <span>{timeLeft.hours}</span>h |
-        <span>{timeLeft.minutes}</span>m
+        <span>{timeLeft.minutes}</span>m 
         </div>
-        <button id="aplica" name="aplica" type=""><a href="#">APLICA</a></button>
-      </section>
+        <button class="btnaplica" name="aplica" type="submit"><a href="#">APLICA</a></button>
+      </section >
       <h1 id="program-banner"></h1>
+      <div id="fundal">
       <section>
-        <h2>Marti, 25 martie</h2>
-        <p>10:00<br/>Deschidere</p>
-        <p>10:00<br/>Conferinta</p>
-        <p>10:00<br/>TBA</p>
-        <p>10:00<br/>TBA</p>
-      </section>
-      <section>
-        <h2>Miercuri, 26 martie</h2>
-        <p>10:00<br/>Deschidere</p>
-        <p>10:00<br/>Conferinta</p>
-        <p>10:00<br/>TBA</p>
-        <p>10:00<br/>TBA</p>
-      </section>
+          <h2>Marti, 25 martie</h2>
+          <p>10:00<br/>Deschidere</p>
+          <p>10:00<br/>Conferinta</p>
+          <p>10:00<br/>TBA</p>
+          <p>10:00<br/>TBA</p>
+        </section>
+        <section>
+          <h2>Miercuri, 26 martie</h2>
+          <p>10:00<br/>Deschidere</p>
+          <p>10:00<br/>Conferinta</p>
+          <p>10:00<br/>TBA</p>
+          <p>10:00<br/>TBA</p>
+        </section>
+        </div>
     </div>
   );
 }
