@@ -1,10 +1,15 @@
 
 import './App.css';
 import Contact from './contact';
+import ellipse from './contact/images/ellipse.svg';
 
 function App() {
   return (
     <div className="App">
+      <div className="bg">
+        <img src={ellipse} className="ellipse"></img>
+      </div>
+
       <div className="header">
         <Contact />
       </div>

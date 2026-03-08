@@ -3,6 +3,20 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/*background styles*/
+.bg {
+  position: absolute;
+}
+
+.ellipse{
+  position: absolute;
+  width: 477px;
+  height: 721px;
+  top: -46px;
+  left: -123px;
+  z-index: -1;
+}
+
 
 .container_form{
   width: 100%;
