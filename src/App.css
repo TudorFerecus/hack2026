@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: #F7F7FF;
+  overflow: hidden;
+   max-width: 430px;   /* adjust to your desired max width */
+  max-height: 932px;  /* adjust to your desired max height */
+  margin: 0 auto;     /* centers it horizontally */
 }
 .App-logo {
   height: 40vmin;
@@ -133,6 +138,7 @@ background:
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom: 0;
 }
 .App-link {
   color: 
