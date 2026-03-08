@@ -1,27 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Contact from './contact';
+import ellipse from './contact/images/ellipse.svg';
 
 function App() {
   return (
     <div className="App">
-      <div class="contact">
+      <div className="bg">
+        <img src={ellipse} className="ellipse"></img>
+      </div>
+
+      <div className="header">
         <Contact />
       </div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="container_persons">
+
+      </div>
+
+      <div className="container_form">
+        <form>
+          <div className="container_field first_field">
+            <label>Nume si prenume:</label>
+            <input type="text" placeholder="nu mai vreau sa fiu viu"></input> 
+          </div>
+
+          <div className="container_field">
+            <label>Adresa de email:</label>
+            <input type="email" placeholder="nu mai vreau sa fiu viu"></input>
+          </div>
+
+          <div className="container_field">
+            <label>Mesajul tau:</label>
+            <textarea placeholder="nu mai vreau sa fiu viu" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="submit_button">TRIMITE</button>
+          </form>
+      </div>
     </div>
   );
 }
