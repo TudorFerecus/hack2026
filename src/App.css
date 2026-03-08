@@ -1,38 +1,82 @@
 .App {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.container_form{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container_form form{
+  width: inherit;
+  padding: 10px;
+  margin: 25px;
+  border: 3px solid #726DA8;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-start;
+}
+
+.container_field label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  font-size:14px;
+  padding: 5px;
+}
+
+.container_field input{
+  width: 200px;
+  font-size: 10px;
+  background-color: #726DA8;
+  padding:8px 8px;
+  border-radius: 10px;
+  border: 1px solid #726DA8;
+}
+
+.container_field input::placeholder{
+  color:white;
+}
+
+.first_field input{
+  background-color: white;
+}
+
+.first_field input::placeholder{
+  color: grey;
+}
+
+.container_field textarea{
+  width: 200px;
+  padding:8px;
+  border-radius: 10px;
+  background-color: #726DA8;
+}
+
+.container_field textarea::placeholder{
+  color:white;
+  font-size: 10px;
+  font-weight:300;
+}
+
+.submit_button{
+  background-color: #EF7B45;
   color: white;
+  padding: 4px 12px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
