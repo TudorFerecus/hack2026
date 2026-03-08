@@ -2,6 +2,7 @@
 import './App.css';
 import Contact from './contact';
 import ellipse from './contact/images/ellipse.svg';
+import componentaEchipa from './contact/components/componente_echipa/componenta_echipa';
 
 function App() {
   return (
@@ -12,10 +13,6 @@ function App() {
 
       <div className="header">
         <Contact />
-      </div>
-
-      <div className="container_persons">
-
       </div>
 
       <div className="container_form">
@@ -37,6 +34,14 @@ function App() {
 
           <button type="submit" class="submit_button">TRIMITE</button>
           </form>
+      </div>
+
+      <div class="title">
+          <h1>Echipa</h1>
+      </div>
+
+      <div className="container_echipa">
+            <componentaEchipa />
       </div>
     </div>
   );

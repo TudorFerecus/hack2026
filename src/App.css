@@ -17,7 +17,6 @@
   z-index: -1;
 }
 
-
 .container_form{
   width: 100%;
   display:flex;
@@ -26,10 +25,11 @@
 }
 
 .container_form form{
+  background-color: white;
   width: inherit;
   padding: 10px;
   margin: 25px;
-  border: 3px solid #726DA8;
+  border: 3px solid #5d598e;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -80,7 +80,7 @@
 
 .submit_button{
   background-color: #EF7B45;
-  color: white;
+  color: white; 
   padding: 4px 12px;
   margin: 8px;
   border: none;
@@ -90,7 +90,15 @@
   line-height: 15px;
 }
 
+.container_echipa{
+  display:flex;
+}
 
+.title{
+  text-align: left;
+  color: white;
+  margin-top:40px;
+}
 
 
 

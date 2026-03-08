@@ -4,7 +4,8 @@ import PersoanaContact from './components/persoana_contact/persoana_contact';
 function Contact(){
     return(
         <div>
-            <h1>Contact</h1>
+            <h1 className="header_title">Contact</h1>
+            <PersoanaContact />
             <PersoanaContact />
         </div>
     )
