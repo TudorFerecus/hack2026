@@ -1,82 +1,73 @@
+/* Containerul principal */
 .contact-card {
-    /* Rectangle 116 */
     box-sizing: border-box;
-    position: relative; /* Schimbat din absolute pentru a fi utilizabil oriunde */
+    position: relative;
     width: 274px;
     height: 79px;
     background: #F7F7FF;
     border: 2px solid #EF7B45;
     border-radius: 20px;
-    
-    /* Pentru a centra cardul pe pagină în demo, poți folosi margini sau un wrapper */
-    margin: 20px; 
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden; /* Se asigură că nimic nu iese din margini */
   }
   
+  /* Imaginea de profil */
   .profile-image {
     position: absolute;
     width: 53px;
     height: 65px;
-    left: 10px;
-    top: 7px;
-    background: url('pozehackathon/tz1AUTt - Imgur 8.svg') no-repeat center;
+    left: 10px; /* Distanța de la marginea stângă */
+    top: 7px;   /* Distanța de sus */
+    background: url('https://i.imgur.com/tz1AUTt.png') no-repeat center;
     background-size: cover;
     border-radius: 10px;
   }
   
-  .name {
-    /* Sergiu Adrian Preda */
+  /* Stil comun pentru tot textul pentru a asigura alinierea la stânga */
+  .name, .role, .phone, .email {
     position: absolute;
-    width: 148px;
+    left: 73px; /* VALOARE FIXĂ pentru aliniere verticală perfectă */
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .name {
+    width: 180px;
     height: 17px;
-    left: 71px; /* 94px - 23px */
-    top: 7px;   /* 143px - 136px */
+    top: 9px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-    text-align: left; /* Am schimbat în left pentru a arăta ca în poză, deși în date scria center */
     color: #071013;
-    margin: 0;
   }
   
   .role {
-    /* presedinte EESTEC Bucuresti */
-    position: absolute;
-    width: 217px;
+    width: 190px;
     height: 12px;
-    left: 71px; /* Aliniat cu numele */
-    top: 24px;  /* 160px - 136px */
+    top: 28px;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    margin: 0;
   }
   
   .phone {
-    /* +0707070707 */
-    position: absolute;
-    width: 68px;
+    width: 100px;
     height: 12px;
-    left: 71px; /* 94px - 23px */
-    top: 37px;  /* 173px - 136px */
+    top: 42px;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    margin: 0;
   }
   
   .email {
-    /* sergiu.preda@eestec.ro */
-    position: absolute;
-    width: 118px;
+    width: 150px;
     height: 12px;
-    left: 71px; /* 94px - 23px */
-    top: 49px;  /* 185px - 136px */
+    top: 56px;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
     color: #000000;
-    margin: 0;
   }
