@@ -9,12 +9,14 @@
   height: auto;
 }
 
-.LogoWrapper {
-  display: flex;
-  flex-direction: row; 
-  gap: 10px;           
-  margin-top: 10px;    
+.LogoGroup {
+  display: flex;          /* This makes the logos go horizontal */
+  flex-direction: row;    /* Explicitly side-by-side */
+  gap: 15px;              /* Adds space between each logo */
+  margin-top: 10px;       /* Pushes logos slightly below the text */
+  align-items: center;    /* Keeps them vertically centered with each other */
 }
+
 
 .Titlu {
   position: relative;

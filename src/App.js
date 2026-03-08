@@ -77,7 +77,7 @@ function App() {
           {ListaTitluri.map((produs) => (
                 <TitluStanga 
                   numeTitlu={produs.numeTitlu} 
-                  nrBrand={produs.numeBrand}
+                  nrBrand={produs.nrBrand}
                 />
             ))}
         </div> 
