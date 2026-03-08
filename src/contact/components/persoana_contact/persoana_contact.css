@@ -1,0 +1,54 @@
+.chenarr{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.chenar {
+    /* Rectangle 116 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 274px;
+height: 79px;
+left: 23px;
+top: 136px;
+
+background: #F7F7FF;
+border: 2px solid #EF7B45;
+border-radius: 20px;
+
+}
+
+.titlu {
+    /* Sergiu Adrian Preda */
+
+position: absolute;
+width: 148px;
+height: 17px;
+left: 94px;
+top: 143px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #071013;
+ 
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
