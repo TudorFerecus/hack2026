@@ -1,3 +1,13 @@
 .header_title{
     padding-top: 60px;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
