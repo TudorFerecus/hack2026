@@ -7,6 +7,9 @@ import panc3 from "./home/panc3.svg";
 import bat from "./home/bat.svg";
 import elipsa from "./home/Ellipse 2.svg";
 import navlogo from "./home/navsvg.svg";
+import fundalalb from "./home/fundalalb.svg";
+import cerc1 from "./home/cerc1.svg";
+import cerc2 from "./home/cerc2.svg";
 import { useState, useEffect } from "react";
 
 function Home() {
@@ -41,20 +44,31 @@ function Home() {
       <section>
         <img src={banner} id="banner" />
         <navbar>
-            <button type=""><img src={navlogo} id="navlogo" /></button>
+          <button type="button" id="btnnav"></button>
+          <img src={navlogo} id="navlogo" />
         </navbar>
       </section>
+
+
       <section id="principal">
-        <div id="containerSemn">
-          <img src={panc1} class="panc1" />
-          <img src={panc2} class="panc2" />
-          <img src={panc3} class="panc3" />
-          <img src={bat} class="batpoza" />
+        <div id="TOATEpozele">
+          <div id="containerSemn">
+            <img src={panc1} class="panc1" />
+            <p class="text1">25-26 Martie</p>
+          </div>
+            <div id="containerSemn">
+            <img src={panc2} class="panc2" />
+            <p class="text2">Automatica si<br/>Calculatoare<br/>UNSTPB</p>
+          </div>
+          <div id="containerSemn">
+            <img src={panc3} class="panc3" />
+            <p class="text3">fair.eestec.ro</p>
+          </div>
+
+          <img src={bat} id="batpoza" />
+
+          <img src={elipsa} class="elipsa" id="maxlim" />
         </div>
-        <img id="maxlim" src={elipsa} class="elipsa" />
-        <p class="text1">25-26 Martie</p>
-        <p class="text2">Automatica si<br/>Calculatoare<br/>UNSTPB</p>
-        <p class="text3">fair.eestec.ro</p>
 
         <p class="timpramas">Timp ramas pana la eveniment:</p>
         <div class="ddhhmm">
@@ -66,6 +80,7 @@ function Home() {
       </section >
       <h1 id="program-banner"></h1>
       <div id="fundal">
+      </div>
       <section>
           <h2>Marti, 25 martie</h2>
           <p>10:00<br/>Deschidere</p>
@@ -80,7 +95,7 @@ function Home() {
           <p>10:00<br/>TBA</p>
           <p>10:00<br/>TBA</p>
         </section>
-        </div>
+
     </div>
   );
 }
