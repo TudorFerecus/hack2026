@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    body {
+    #principal {
         overflow: hidden;
     }
     
@@ -15,7 +15,7 @@
         position: absolute;
         width: 32px;
         height: 24px;
-        left: 268px;
+        left: 90%;
         top: 17px;
         color: #726DA8;
     }
@@ -28,41 +28,32 @@
         top: 44px;
     }
 
+    #containerSemn {
+        position:absolute;
+        pointer-events: none;
+        transform:translateX(-50%);
+        display:flex;
+        left:50%;
+    }
+
     .panc1 {
-    position: absolute;
-    left: 25%;          /*DONT TOUCH*/
-    right: 6.96%;
-    top: 30%;
-    bottom: 58.71%;
-    color: #F47F4D;
+        position: relative;
+        transform: translateX(170px) translateY(60px);
     }
 
     .panc2 {
-    position: absolute;
-    left: 25%;
-    right: 2.82%;
-    top: 39.22%;
-    bottom: 37.16%;
-    color: #1E9876;
+        position: relative;
+        transform: translateX(265px) translateY(60px);
     }
 
     .panc3 {
-    position: absolute;
-    left: 25%;
-    right: 6.57%;
-    top: 50.91%;
-    bottom: 17.77%;
-    color: #6E70AA;
+        position: relative;
+        transform: translateX(265px) translateY(60px);
     }
 
     .batpoza {
-    position: absolute;
-    left: 45.85%;
-    right: 46.36%;
-    top: 28.2%;
-    bottom: -7.44%;
-    color: #00000A;
-    z-index:-1;
+        position: relative;
+        transform: translateX(265px) translateY(60px);
     }
 
     .limita {
@@ -82,4 +73,3 @@
 
 
 }
-    

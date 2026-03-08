@@ -13,16 +13,18 @@ function Home() {
   return (
     <div className="App">
       <section>
-        <img src="Logo EESTEC negru cu guidelines.svg" id="banner" />
+        <img src={banner} id="banner" />
         <navbar>
             <button type=""><img src={navlogo} id="navlogo" /></button>
         </navbar>
       </section>
-      <section id="">
-        <img src={panc1} class="panc1" />
-        <img src={panc2} class="panc2" />
-        <img src={panc3} class="panc3" />
-        <img src={bat} class="batpoza" />
+      <section id="principal">
+        <div id="containerSemn">
+          <img src={panc1} class="panc1" />
+          <img src={panc2} class="panc2" />
+          <img src={panc3} class="panc3" />
+          <img src={bat} class="batpoza" />
+        </div>
         <img id="maxlim" src={elipsa} class="elipsa" />
         <p class="text1">25-26 Martie</p>
         <p class="text2">Automatica si Calculatoare UNSTPB</p>
